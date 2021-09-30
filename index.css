@@ -1,0 +1,25 @@
+#surf_pic {
+  width: 100%;
+  background-image: url('./assets/gian-luca-pilia-KxQYNqp329Y-unsplash.jpg');
+  background-size: cover;
+}
+
+#bg_cover {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(40, 40, 40, 0.7);
+}
+
+@media (max-width: 465px) { 
+
+  #surfing_title {
+    text-align: center;
+  }
+
+  #three_points_paragraphs {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+ }
